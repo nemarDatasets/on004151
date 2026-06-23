@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004151",
-  "source": "openneuro",
-  "source_id": "ds004151",
+  "pipeline_stage": "enriched",
   "title": "Effect of obesity on inhibitory control in preadolescents during stop-signal \ntask. An event-related potentials study",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Graciela C. Alatorre-Cruz": {},
     "Heather Downs": {},
@@ -12,26 +12,88 @@
     "D. Keith Williams": {},
     "Linda Larson-Prior": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004151.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004151",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004151",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.ijpsycho.2021.04.003",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "This research was supported by USDA/Agricultural Research Service Project 6026-51000-012-06S"
+      "funder_name": "USDA/Agricultural Research Service",
+      "award_number": "6026-51000-012-06S"
     }
-  ]
+  ],
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".es2",
+    ".jpg",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This EEG dataset comprises electrophysiological recordings from 57 obese and non-obese preadolescents performing a stop-signal task, designed to investigate the effect of obesity on inhibitory control mechanisms. Event-related potentials were recorded using a 128-channel Geodesic Hydrocell Sensor Net system. The dataset includes participant demographic information (age, gender, BMI, weight status) and raw, unprocessed EEG data acquired at the Arkansas Children Nutrition Center.",
+  "methods_description": "EEG data were acquired using a Geodesic Net Amps 300 system with 128-channel Geodesic Hydrocell Sensor Net (Magstim EGI, Eugene OR, USA) running Netstation 4.5.2 software. Stimuli were designed and administered using E-Prime software (Version 2). Raw data files contain no preprocessing operations.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Event-Related Potentials",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D034951"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "inhibitory control"
+    },
+    {
+      "term": "Response Inhibition"
+    },
+    {
+      "term": "stop-signal task"
+    },
+    {
+      "term": "Obesity",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009765"
+    },
+    {
+      "term": "preadolescents"
+    },
+    {
+      "term": "Children"
+    },
+    {
+      "term": "Pediatric"
+    }
+  ],
+  "source_hash": "dc970bd5223043d9b20e1d075901750c83c95a97175adbc80191a7365452d73c"
 }
