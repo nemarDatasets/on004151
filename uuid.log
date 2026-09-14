@@ -1,7 +1,7 @@
 17d5956c-8ada-4a84-8b6e-b35b3d1c6ef2 OpenNeuro timestamp=1655139421.295451567s
 54367228-7178-4719-8c26-0aecbda4ade9 runner@runnervm7b5n9:/tmp/nemar-finalize-on004151-IVKVBj/on004151-finalize timestamp=1782221588s
 73a68812-8895-4012-9a07-ec15230d7ba0 nemar-s3 timestamp=1782221509s
-7b5fc694-3f76-4580-80cf-2a1f3b241979 yahya@yahyas-mcm:/private/var/folders/yh/v431j0015bq2_32ydhg5kvnm0000gn/T/nemar-key-registration-tMtXCj/on004151 timestamp=1789403342s
+7b5fc694-3f76-4580-80cf-2a1f3b241979 fleet-key-registration timestamp=1789403343s
 8cfe69fa-ffcd-4ee9-909a-0a8f7532cac1 s3-PUBLIC timestamp=1655232077.181955173s
 9dd68874-8593-41c5-b4cd-808d4174d46b runner@runnervm7b5n9:/tmp/nemar-import-on004151-aS28AE/on004151 timestamp=1782221505s
 db0308c0-482e-4680-9d3d-1e840c07a3e9 yahya@yahyas-mcm:/private/var/folders/yh/v431j0015bq2_32ydhg5kvnm0000gn/T/nemar-fleet-annex-policy-cMAxEb/on004151 timestamp=1789387038s
